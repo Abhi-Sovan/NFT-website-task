@@ -1,0 +1,882 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  background: black;
+  color: #d1cfcf;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.header > p {
+  margin-top: 33px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+}
+.header_logo {
+  width: 123px;
+  height: 56px;
+  margin-top: 20px;
+}
+.header_btn > i {
+  display: none;
+}
+.header_btn > button {
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+}
+.header_btn > button:first-child {
+  margin-top: 28px;
+}
+.header_btn > button:nth-child(2) {
+  border: 1px solid #ffb800;
+  color: #ffb800;
+  width: 179px;
+  height: 50px;
+  border-radius: 100px;
+}
+.togle {
+  padding-top: 36px;
+  display: none;
+}
+
+.banner_text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+.banner_text > div > h1 {
+  width: 918px;
+  height: 98px;
+  left: 135px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 62px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.paragraph {
+  margin-top: 77px;
+  border-left: 2px solid #ffb800;
+  padding: 3px 12px;
+  width: 222px;
+  height: 77px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  color: #d1cfcf;
+}
+.banner_image {
+  height: 503px;
+  background: linear-gradient(180deg, #1f1f1f 0%, #0c0c0c 100%);
+  display: flex;
+  justify-content: center;
+}
+.banner_photo {
+  left: 105px;
+  padding-top: 53px;
+  background: linear-gradient(180deg, #1f1f1f 0%, #0c0c0c 100%);
+}
+.deadline {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 23px;
+  margin-top: 70px;
+}
+.div_3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  align-items: center;
+}
+.div_3 > div {
+  padding-left: 60px;
+}
+.div_3 > div > h3 {
+  width: 448px;
+  height: 240px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 80px;
+  color: #ffffff;
+}
+.div_3 > div > p {
+  width: 448px;
+  height: 87px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 42px;
+}
+.div_4 {
+  padding-right: 65px;
+}
+.arrow {
+  width: 200px;
+  font-weight: 100;
+  font-size: medium;
+}
+.feature_backgroud_div {
+  border: 2px solid white;
+  width: 1320px;
+  height: 414px;
+  position: relative;
+  z-index: 1;
+  margin-top: 45px;
+}
+.features {
+  position: absolute;
+  z-index: 2;
+  top: -38px;
+  border: 2px solid white;
+  width: 1200px;
+  height: 490px;
+  padding: 30px;
+  display: flex;
+  margin-left: 60px;
+  justify-content: space-around;
+}
+.icon {
+  width: 17px;
+  height: 20px;
+  margin-top: 20px;
+}
+.features_text {
+  display: flex;
+  width: 500px;
+}
+.features_text > p {
+  margin-left: 10px;
+  width: 470.71px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-top: 15px;
+}
+.Text-1 {
+  width: 440px;
+}
+.Text-2 > div {
+  margin-bottom: 15px;
+}
+.features > div > h2 {
+  width: 475.68px;
+  height: 100px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffb800;
+  margin-left: -20px;
+}
+.challenge_div {
+  background-color: #1f1f1f;
+  /* border:2px solid white; */
+  width: 1000px;
+  height: 1981px;
+  margin-top: 100px;
+  margin-left: 180px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.down_arrow {
+  padding-top: 50px;
+  padding-left: 50px;
+  background-color: #1f1f1f;
+}
+.down_arrow > img {
+  background-color: #1f1f1f;
+}
+
+.challenge_div > h4 {
+  background-color: #1f1f1f;
+}
+.challenge_header > h4 {
+  background-color: #1f1f1f;
+  padding-top: 30px;
+  padding-left: 58px;
+  margin: 0;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 53px;
+  color: #ffb800;
+}
+.challenge_text {
+  background-color: #1f1f1f;
+  width: 784px;
+  height: 171px;
+}
+.challenge_text > h4 {
+  background-color: #1f1f1f;
+  color: white;
+  margin: 0;
+  width: 758px;
+  padding-top: 30px;
+  padding-left: 58px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+}
+.challenge_day {
+  width: 800px;
+  height: 1300px;
+  margin-left: 60px;
+  margin-top: 30px;
+  background-color: #1f1f1f;
+  border-bottom: 1px solid white;
+}
+.challenge_day > li > span {
+  color: #ffb800;
+  background-color: #1f1f1f;
+}
+.challenge_day > li {
+  background-color: #1f1f1f;
+  width: 630px;
+  height: 177px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  list-style: none;
+  color: white;
+}
+.challenge_day > h3 {
+  background-color: #1f1f1f;
+}
+
+.challenge_text_image {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.text_image {
+  /* position: absolute; */
+  padding-top: 50px;
+  padding-left: 60px;
+  background-color: #1f1f1f;
+}
+.text_image > img {
+  background-color: #1f1f1f;
+}
+.twitter {
+  /* display: absolute; */
+  background-color: #1f1f1f;
+}
+.twitter > h3 {
+  background-color: #1f1f1f;
+  text-align: left;
+  padding-top: 96px;
+  padding-left: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+}
+.arrow_3 {
+  padding-left: 38px;
+  background-color: #1f1f1f;
+}
+.reason_div {
+  border-bottom: 2px solid white;
+}
+.reason {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  border-top: 2px solid white;
+  text-align: start;
+}
+.reason > div > h1 {
+  color: #ffb800;
+  width: 309px;
+  height: 160px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.reason_points > h3 {
+  width: 585px;
+  height: 190px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  padding-top: 30px;
+}
+.tricks {
+  padding-left: 80px;
+}
+.tricks > h3 {
+  height: 50px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  padding-top: 15px;
+}
+.tricks > li {
+  padding-top: 20px;
+  width: 585px;
+  height: 56px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 36px;
+}
+
+.tricks > h4 {
+  padding-top: 50px;
+  width: 671px;
+  height: 244px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+}
+.tricks > h4 > span {
+  font-weight: 600;
+    color:#FFFFFF;
+}
+.review {
+  margin-top: 50px;
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+}
+.review_header {
+  text-align: center;
+  padding-top: 60px;
+  color: #ffb800;
+}
+.review_header > h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 80px;
+}
+.review_images {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.review_images > div:nth-child(2) {
+  padding: 0 20px 10px 10px;
+}
+.review_images > div > img:nth-child(2) {
+  padding-top: 40px;
+}
+.review_images > div > img:nth-child(3) {
+  padding-top: 20px;
+}
+.review_text {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+}
+.review_text > h3 {
+  text-align: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 22px;
+  padding-left: 50px;
+}
+span {
+  color: #ffb800;
+}
+.last_section_div {
+  border: 3px solid #ffb800;
+  width: 1017px;
+  height: 767px;
+  margin: auto;
+  margin-top: 60px;
+}
+.message_header {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.message_header > h1 {
+  width: 348px;
+  height: 28px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #ffb800;
+}
+.message {
+  padding-left: 60px;
+  padding-right: 100px;
+}
+.message > h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 47px;
+  color: #ffffff;
+  padding-top: 50px;
+}
+.last_section {
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.last_section > h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 47px;
+  color: #a7a7a7;
+}
+.footer {
+  text-align: center;
+  padding-top: 100px;
+}
+.footer > div {
+  padding: 40px;
+}
+.footer > div > p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.231818px;
+  color: #585656;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .header {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .header > p {
+    width: 122px;
+    height: 28px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 20px;
+  }
+
+  .header_btn {
+    display: none;
+  }
+  .togle {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 87.83%;
+    right: 7.08%;
+    top: 0.58%;
+    bottom: 99.42%;
+  }
+
+  .banner_text {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner_text > div > h1 {
+    width: 334px;
+    height: 85px;
+    font-size: 63px;
+    line-height: 57px;
+  }
+
+  .banner_text > .paragraph {
+    margin-left: 143px;
+    width: 234px;
+    height: 68px;
+    font-weight: 506;
+    font-size: 16px;
+    line-height: 21px;
+    color: #d1cfcf;
+  }
+  .banner_image {
+    margin-top: 43px;
+    width: 362px;
+    padding-top: 0px;
+    height: 257px;
+  }
+  .banner_image > div > img {
+    width: 100%;
+  }
+  .deadline {
+    margin-top: 0px;
+  }
+  .deadline > h4 {
+    /* display: inline; */
+    font-size: 10px;
+    padding: 10px;
+    margin: -22px;
+  }
+  .div_3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .div_3 > div > h3 {
+    width: 258px;
+    height: 135px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #ffffff;
+    margin: 0;
+  }
+  .div_3 > div > p {
+    width: 280px;
+    height: 82px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    margin-left: 0px;
+  }
+  .div_4 > img {
+    height: 191px;
+    width: 250px;
+    margin: 0;
+  }
+  .arrow {
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+  }
+  .feature_backgroud_div {
+    width: 304px;
+    height: 819px;
+    margin-left: 28px;
+  }
+  .features {
+    position: relative;
+    z-index: 2;
+    border: 2px solid #ffffff;
+    width: 354px;
+    height: 760px;
+    display: flex;
+    margin-left: -28px;
+    flex-direction: column;
+    margin-top: 66px;
+  }
+  .features > div {
+    margin-left: 20px;
+  }
+  .features_text {
+    width: 300px;
+  }
+  .features_text > p {
+    margin-left: 10px;
+    width: 475.71px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 20px;
+  }
+  .Text-1 {
+    width: 45px;
+  }
+  .features > div > h2 {
+    width: 263px;
+    height: 80px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    color: #ffb800;
+    margin-left: 10px;
+  }
+  .challenge_div {
+    background-color: #1f1f1f;
+    width: 380px;
+    height: 1981px;
+    margin-top: 27px;
+    top: 0;
+    bottom: 0;
+  }
+  .challenge_div {
+    width: 332px;
+    margin-left: 14px;
+  }
+  .down_arrow {
+    padding-top: 0px;
+    padding-left: 0px;
+    background-color: #1f1f1f;
+  }
+  .down_arrow > img {
+    background-color: #1f1f1f;
+  }
+
+  .challenge_div > h4 {
+    background-color: #1f1f1f;
+  }
+  .challenge_div > div {
+    width: 276px;
+  }
+
+  .challenge_text {
+    background-color: #1f1f1f;
+    width: 378px;
+  }
+  .challenge_text > p {
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 28px;
+    width: 300px;
+    margin: 25px;
+  }
+  .challenge.day {
+    width: 500px;
+    height: 1300px;
+
+  }
+  .challenge_day > li {
+    width: 272px;
+    padding-top: 1px;
+    height: 201px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 19px;
+    list-style: none;
+  }
+  .challenge_day > li > span {
+    color: #ffb800;
+    background-color: #1f1f1f;
+  }
+
+  .challenge_text_image {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  .text_image {
+    padding-top: 50px;
+    padding-left: 60px;
+    background-color: #1f1f1f;
+  }
+  .text_image > img {
+    background-color: #1f1f1f;
+  }
+  .down_arrow {
+    padding-top: 50px;
+    padding-left: 50px;
+    background-color: #1f1f1f;
+  }
+  .down_arrow > img {
+    background-color: #1f1f1f;
+  }
+
+  .challenge_div > h4 {
+    background-color: #1f1f1f;
+  }
+  .challenge_header > h4 {
+    background-color: #1f1f1f;
+    padding-top: 30px;
+    padding-left: 58px;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 53px;
+    color: #ffb800;
+  }
+  .challenge_text {
+    background-color: #1f1f1f;
+    width: 784px;
+    height: 171px;
+  }
+  .challenge_text > h4 {
+    background-color: #1f1f1f;
+    color: white;
+    margin: 0;
+    width: 304px;
+    padding-top: 11px;
+    padding-left: 58px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 37px;
+  }
+  .challenge {
+    flex-direction: column-reverse;
+  }
+  .reason {
+    flex-direction: column;
+  }
+  .reason > div > h1 {
+    width: 282.27px;
+    height: 63px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 44px;
+    padding-left: 20px;
+  }
+  .reason_points > h3 {
+    width: 312px;
+    height: 151px;
+    height: 127px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 21px;
+    padding-left: 20px;
+  }
+
+  .tricks > h3 {
+    width: 328px;
+    height: 25px;
+    font-size: 24px;
+    line-height: 26px;
+    margin-left: -45px;
+  }
+  .tricks > li {
+    width: 323px;
+    height: 31px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    margin-left: -45px;
+  }
+
+  .tricks > h4 {
+    width: 284.5px;
+    height: 247px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-left:-40px;
+    color:#FFFFFF
+  }
+  .tricks>span{
+    color:#FFFFFF;
+    font-weight: 400;
+  }
+  .challenge_text_image {
+    flex-direction: column-reverse;
+  }
+
+  .twitter {
+    display: flex;
+  }
+  .twitter > h3 {
+    padding-top: 28px;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .text_image > img {
+    width: 270.8px;
+    height: 132.38px;
+    margin-top: -35px;
+  }
+  .review_header > h1 {
+    width: 219.27px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 34px;
+    margin-top: -10px;
+  }
+  .last_section_div {
+    width: 350px;
+    height: 632px;
+  }
+  .message_header > h1 {
+    width: 232px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: -50px;
+    margin-left: -40px;
+  }
+  
+  .message > h3 {
+    width: 202px;
+    height: 221px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .message > h3:nth-child(3) {
+    margin-top: -174px;
+  }
+  .last_section > h3 {
+    width: 245.42px;
+    height: 81px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .last_section {
+    padding-left: 60px;
+    margin: auto;
+  }
+  .review {
+    display: none;
+  }
+}
